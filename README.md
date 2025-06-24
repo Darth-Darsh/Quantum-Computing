@@ -1,1 +1,4 @@
 # Quantum-Computing
+
+So far, as of 24th June 2024, I have learned about the basics of quantum computing from state space to quantum algorithms. I learned how to make quantum gates and circuits on Qiskit and implement them on AerSimulator and real quantum hardware (IBM). For the assignment, I made a circuit implementing superdense coding and successfully delivering two bits through just one qubit. I also used noisy AerSimulator to demonstrate noise and interference while working on real quantum hardware. I also used majority voting to correct for this noise correction, and thus got the correct output (mostly). I have attached both my assignments and a Jupyter file with my first attempts at Qiskit (hello world). 
+It's been really interesting journey so far, and looking forward to the remaining half of this course!
