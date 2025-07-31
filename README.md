@@ -1,4 +1,8 @@
-# Quantum-Computing
+# Quantum Computing
 
-So far, as of 24th June 2024, I have learned about the basics of quantum computing from state space to quantum algorithms. I learned how to make quantum gates and circuits on Qiskit and implement them on AerSimulator and real quantum hardware (IBM). For the assignment, I made a circuit implementing superdense coding and successfully delivering two bits through just one qubit. I also used noisy AerSimulator to demonstrate noise and interference while working on real quantum hardware. I also used majority voting to correct for this noise correction, and thus got the correct output (mostly). I have attached both my assignments and a Jupyter file with my first attempts at Qiskit (hello world). 
-It's been really interesting journey so far, and looking forward to the remaining half of this course!
+Over the past 8+ weeks, I explored the basics of quantum computing and quantum information, and ran several simulations using Qiskit—both on AerSimulator and real IBM quantum hardware.
+My first simulation was Superdense Coding. I built the circuit, ran it on AerSimulator, and also wrote a script to send any message by converting it into binary and transmitting 2 bits at a time using just one qubit. I also tested it on a noisy simulator to mimic real hardware behavior.
+Next, I implemented Grover's Algorithm and used it to solve a 3-SAT problem. This involved building an oracle, a diffusion operator, and performing Grover iterations before measuring the final state.
+I also learned and simulated the Quantum Fourier Transform and Quantum Phase Estimation, which helped me understand the ideas behind Shor’s Algorithm.
+For my final project, I started with ideal and noisy versions of the Variational Quantum Eigensolver (VQE), then built a basic Quantum Error Correction (QEC) circuit, and finally combined QEC with VQE to estimate the ground state energy of the hydrogen atom.
+
